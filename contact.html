@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Andy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- header navigation (copy your header code here) -->
+  <header>
+ <a href="index.html"class="logo">Andy</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="skills.html">Skills</a>
+      
+      <a href="experience.html">Experience</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Form -->
+  <section style="max-width:600px; font-size:13px" class="contact-section">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Contact Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="time">Preferred Contact Time:</label>
+      <input type="text" id="time" name="time" placeholder="e.g. 4-6 PM">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
